@@ -1,9 +1,14 @@
-Kurulum Komutları
+# 🚀 ZARVOX DDOS TOOL
+Advanced HTTP Stresser for PC & Termux.
 
-# TERMUX
+## 📥 Kurulum Komutları (TERMUX)
 
+Lütfen aşağıdaki komutları sırasıyla yazın:
+
+```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
 git clone https://github.com/zarvoxx/zarvoxddos.git
-ls
 cd zarvoxddos
 pip install requests colorama
 python zarvoxddos.py
